@@ -1,4 +1,4 @@
-# Flores_TimothyBryle_FIP-L1T1 	:trophy:
+# Flores_TimothyBryle_FIP-L1T1 :trophy:
 This repo is the Final Integrated Project of Level 1 Term 1 of IDP course. This project demonstrates the full redesign of Couples Resort website applying Web Development tools and techniques learned in all courses.
 
 
