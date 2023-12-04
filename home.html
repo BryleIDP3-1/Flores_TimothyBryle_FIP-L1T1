@@ -11,7 +11,7 @@
     <title>Welcome to The Couples Resort</title>
 </head>
     <body>
-        <!-- <div id="mobile-outline"> -->
+        <div id="mobile-outline">
         <h1 class="hidden">Welcome to The Couples Resort</h1>
         <!-- Main Nav -->         
             <header class="grid-con" id="main-header">
@@ -26,7 +26,7 @@
                             <li><a href="home.html">Home</a></li>
                             <li><a href="rooms.html">Rooms</a></li>
                             <li><a href="#"><span class="cr-gray">Packages</span></a></li>
-                            <li><a href="#"><span class="cr-gray">Dining</span></a></li>
+                            <li><a href="dining.html">Dining</a></li>
                             <li><a href="#"><span class="cr-gray">Spa Activites</span></a></li>
                             <li><a href="#contact-hero-con">Reservations</a></li>
                         </ul>
@@ -40,7 +40,7 @@
         <section id="hero" class="grid-con">
             <h2 class="hidden">Book a stay with us</h2>                       
             <div id="book-now-hero" class="book-now col-start-3 col-span-2">
-                <p>Book Now</p>
+                <a href="contact.html"><span class="cr-white">Book Now</span></a>
             </div>
             <section id="hero-heading-box" class="col-span-full">
                 <h2 class="hero-img-h2">
@@ -152,13 +152,34 @@
             
         </div>
 
-        <div id="faq-con" class="grid-con">
+        <div class="grid-con" id="faq-con">
                 <div class="col-span-full">
                     <h2><span>Couples Resort</span><br>FAQ</h2>
                 </div>
-                <section class="col-span-full faq-items line-separator">
-                    <h3>Check-in/Check-out</h3>
+                <section class="col-span-full faq-items line-separator"></section>
+
+                <section id="dropdown-nav1" class="col-span-full">
+
+                
+                        <input type="checkbox" id="dropdown-icon">
+                        <label for="dropdown-icon" class="faq-menu-box">
+                        <img src="images/arrow-icon.svg" alt="drop down arrow">
+                        <span>Check-in/Check-out</span>
+                        </label>
+                    
+
+                    <div class="faq-list-group0">
+                        <ul>
+                            <li><a href="#">Private Out Door Hot Tubs</a></li>
+                            <li><a href="#">Fibre-Optic Internet - Free WIFI 50 inch Television</a></li>
+                            <li><a href="#">Free - Netflix Video Streaming</a></li>
+                            <li><a href="#">Walkout Spacious Lakeside Balcony</a></li>
+                            <li><a href="#">European Shower (2 or more heads)</a></li>
+                        </ul>
+                    </div>
+                
                 </section>
+                
                 <section class="col-span-full faq-items">
                     <h3>All-Inclusive</h3>
                 </section>
@@ -243,8 +264,7 @@
                     <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
                 </div>
         </footer>
-    </div>
         <script src="js/main.js"></script>   
-    
+    </div>
     </body>
 </html>
