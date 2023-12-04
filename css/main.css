@@ -45,6 +45,10 @@ Couples Resort Responsive Build
  .cr-red {
     color: #9a2018;
  }
+
+ .cr-gray {
+    color: lightgray;
+ }
  
  
  /* 2. ---Main Nav--- */
@@ -74,6 +78,7 @@ Couples Resort Responsive Build
     transform: rotate(90deg);
  }
  
+
  #main-nav ul {
     list-style: none;
     padding: 0;
@@ -82,24 +87,33 @@ Couples Resort Responsive Build
  
  #main-nav ul li a {
     display: block;
-    padding: 10px 0 10px 0;
-    text-align: center;
+    padding: 10px 0 10px 20px;
+    text-align: left;
     color: #626262;
  }
+
+ #main-nav ul li a:hover {
+    color: #9a2018;
+ }
+
  
  #main-nav ul li {
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #9a2018;
  }
  
  
  
- #main-nav ul li:first-child {
+ /* #main-nav ul li:first-child {
     border-top: 1px solid #efefef;
- }
+ } */
  
  #main-nav ul li:last-child {
     margin-bottom: 10px;
  } 
+
+ /* #main-nav ul li:nth-child(3) {
+    padding-top: 30px;
+ }  */
  
  
  
@@ -112,7 +126,7 @@ Couples Resort Responsive Build
  /* 3. ---Main Hero Image--- */
  
  #hero {
-    background: url(../images/hero-main.jpg) no-repeat;
+    background: url(../images/hero-hm01-412@1x.jpg) no-repeat;
     height: 200px;
  }
  
