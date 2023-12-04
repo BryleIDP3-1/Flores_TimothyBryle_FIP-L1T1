@@ -58,8 +58,12 @@ Couples Resort Responsive Build
     height: 20px;
     margin-top: 15px;
     cursor: pointer;
-    transition: all .5s ease;
+    transition: all .3s ease;
     margin-bottom: 20px; 
+ } 
+
+ #main-nav label img:hover {
+    opacity: 70%;
  } 
  
  #main-nav input, #burger-con {
@@ -72,33 +76,43 @@ Couples Resort Responsive Build
  
  #main-nav input:checked ~ #burger-con {
     display: block;
+    position: absolute;
+    z-index: 9999;
+    margin-left: -20px;
  }
  
  #main-nav input:checked ~ label img {
     transform: rotate(90deg);
  }
- 
+
 
  #main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    background-color: white;
+    width: 226px;
+
+  
  }
  
  #main-nav ul li a {
     display: block;
-    padding: 10px 0 10px 20px;
+    padding: 7px 0 10px 20px;
     text-align: left;
     color: #626262;
+    margin-top: 7px;
+   
  }
 
  #main-nav ul li a:hover {
     color: #9a2018;
+    font-weight: bold;
  }
 
  
  #main-nav ul li {
-    border-bottom: 1px solid #9a2018;
+    border-bottom: 1px solid #efefef;
  }
  
  
@@ -108,7 +122,8 @@ Couples Resort Responsive Build
  } */
  
  #main-nav ul li:last-child {
-    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: none;
  } 
 
  /* #main-nav ul li:nth-child(3) {
@@ -266,11 +281,12 @@ Couples Resort Responsive Build
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+    text-align: center;
  }
  
  #why-choose-us-bottom-nav ol {
     list-style-type: none;
-    margin: 0 0 0 20px;
+    margin: 0;
     padding: 0;
  }
  
