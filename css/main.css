@@ -165,6 +165,10 @@ Couples Resort Responsive Build
  .book-now:hover {
     background-color: rgb(196, 28, 28);
  }
+
+ .book-now:hover {
+    text-decoration: underline;
+ }
  
  #book-now-hero {
     height: 67px;
@@ -330,14 +334,18 @@ Couples Resort Responsive Build
     font-style: italic;
  }
 
- /* ---------------------------------------- */
- 
 
- #dropdown-nav1 label img:hover {
+ /* ---------------------------------------- */
+
+  .dropdown-nav label {
+    margin-top: 15px;
+ } 
+
+ .dropdown-nav label img:hover {
     opacity: 70%;
  } 
 
- #dropdown-nav1 label img {
+ .dropdown-nav label img {
     width: 20px;
     height: 20px;
     /* margin-top: 15px; */
@@ -347,40 +355,78 @@ Couples Resort Responsive Build
     /* margin-bottom: 20px;  */
  } 
 
- 
- #dropdown-nav1 input, .faq-list-group0 {
+
+ .dropdown-nav input, .faq-list-group0 {
     display: none;
- }
- 
- .faq-menu-box {
-    background: #e8e7e7;
-    display: flex;
  }
  
  /*   ~ sibling selector   */
  
  
- #dropdown-nav1 input:checked ~ .faq-list-group0 {
+ .dropdown-nav input:checked ~ .faq-list-group0 {
     display: block;
  }
  
- #dropdown-nav1 input:checked ~ label img {
+ .dropdown-nav input:checked ~ label img {
     transform: rotate(90deg);
  }
 
- #dropdown-nav1 ul {
+ .dropdown-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
  }
  
- #dropdown-nav1 ul li a {
+ .dropdown-nav ul li a {
     display: block;
     padding: 10px 0 10px 0;
-    text-align: center;
+    text-align: left;
     color: #626262;
  }
+ 
+  /* ---------------------------------------- */
 
+  #faq-con {
+    background-color: #f4f4f4;
+    padding-top: 35px;
+    padding-bottom: 30px;
+ }
+ 
+ #faq-con h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+ }
+ 
+ #faq-con h2 span {
+    color: #9a2018;
+    font-size: 16px;
+ }
+
+ .faq-menu-box {
+    background: #e8e7e7;
+    display: flex;
+    font-weight: bold;
+    /* margin-bottom: 20px;  */
+ }
+
+ .faq-list-group0 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ }
+ 
+ .faq-list-group0 li {
+    /* padding: 8px 0; */
+    border-bottom: 1px solid #9a2018;
+ }  
+ 
+ .faq-list-group0 a {
+    color: inherit;
+    font-size: 13px;
+}
+
+
+/* ---------------- */
 
 
  .faq-items {
