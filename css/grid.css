@@ -34,3 +34,8 @@ body, p, h1, h2, h3, h4, h5 {
  .col-start-2	{grid-column-start: 2;}
  .col-start-3	{grid-column-start: 3;}
  .col-start-4	{grid-column-start: 4;}
+
+ .col-checkbox {
+   grid-column: 1/2;
+   grid-row: 1/3;
+ }

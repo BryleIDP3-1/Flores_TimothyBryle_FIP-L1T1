@@ -46,6 +46,12 @@ Couples Resort Responsive Build
     color: #9a2018;
  }
 
+ .cr-red a:visited {
+   color: #9a2018;
+ }
+
+
+
  .cr-gray {
     color: lightgray;
  }
@@ -109,11 +115,13 @@ Couples Resort Responsive Build
    
  }
 
+
+
  #main-nav ul li a:hover {
     color: #9a2018;
     font-weight: bold;
- }
 
+ }
  
  #main-nav ul li {
     border-bottom: 1px solid #efefef;
@@ -247,8 +255,13 @@ Couples Resort Responsive Build
    padding: 5px;
  }
  
- #why-choose-us-nav ul li a.selected {
+ /* #why-choose-us-nav ul li a.selected {
     border-left: #9a2018 solid 5px;
+  } */
+
+  #why-choose-us-nav ul li a.selected:hover {
+    border-left: #9a2018 solid 5px;
+    transition: all .1s ease;
   }
  
  
@@ -511,6 +524,7 @@ Couples Resort Responsive Build
     flex-direction: column;
  }
  
+
  #contact-hero-form input, textarea {
     padding: 22px;
     border: 2px solid #d6d6d6;
@@ -534,7 +548,8 @@ Couples Resort Responsive Build
     border: none;
     transition: all 200ms ease-in;
     width: 150px;
-    align-self: flex-end;
+    margin-left: auto;
+    /* align-items: flex-end; */
  }
  
  #contact-hero-form input[type="submit"]:hover {
@@ -543,6 +558,68 @@ Couples Resort Responsive Build
     /* border-radius: 0; */
  }
  
+
+ .email-notify {
+   /* background-color: #cdcdcd; */
+   margin: 10px 0 10px 0;
+   display: flex;
+   
+   /* width: 100px; */
+ }
+
+ #contact-email-notify {
+   /* background-color: #9c1a1a; */
+   position: relative;
+   /* display: flex; */
+ }
+
+ #contact-email-notify input[type="checkbox"] {
+   margin-right: 8px;
+}
+
+#contact-email-notify input[type="checkbox"]:checked + span::after {
+   content: "\1F44D";
+   width: 25px;
+   height: 25px;
+   /* margin-left: auto; */
+   border-radius: 50%;
+   /* background-color: green; */
+   /* border: 4px solid #20b320; */
+   font-size: 20px;
+   position: absolute;
+   bottom: 28px;
+   right: 8px;
+   animation: fadeIn 0.7s;
+}
+
+#contact-email-notify2 {
+   /* background-color: #9c1a1a; */
+   position: relative;
+   /* display: flex; */
+ }
+
+ #contact-email-notify2 input[type="checkbox"] {
+   margin-right: 8px;
+}
+
+#contact-email-notify2 input[type="checkbox"]:checked + span::after {
+   content: "\1F44D";
+   width: 25px;
+   height: 25px;
+   /* margin-left: auto; */
+   border-radius: 50%;
+   /* background-color: green; */
+   /* border: 4px solid #20b320; */
+   font-size: 20px;
+   position: absolute;
+   bottom: 18px;
+   right: 8px;
+   animation: fadeIn 0.7s;
+}
+
+
+
+
  
  /* 8. ---Footer--- */
  
@@ -574,3 +651,5 @@ Couples Resort Responsive Build
     line-height: 18px;
     font-size: 11px;
  }
+
+
