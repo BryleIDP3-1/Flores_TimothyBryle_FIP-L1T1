@@ -53,7 +53,7 @@
             <section id="hero-summary" class="col-span-full line-separator">
                 <h2 class="hidden">Summary of our Facilities</h2>
                 <p>Welcome to Couples Resort, Soyers Lake.  Haliburton's Only 5 STAR Luxury Resort.  Fine Luxury while still being Rustic with Wilderness.  A Boutique Luxury Resort with Junior suite rooms and cottages that are each designed uniquely, just for the 2 of you, varying between Opulent Old European to Natural Hailburton Style.  Come and experience very spacious accommodations, each and all, with Jacuzzi's, Wood Burning Fireplaces, Hot Tubs and so much more. </p> 
-                <p>"For over 50 years we have been committed to helping couples stay connected. 100% Canadian Owned, By the LeBlanc Family since 1958."</p>
+                <p>For over 50 years we have been committed to helping couples stay connected. 100% Canadian Owned, By the LeBlanc Family since 1958."</p>
             </section>
         </div>
             
@@ -83,10 +83,10 @@
                 <nav id="why-choose-us-nav" class="col-span-full">
                     <h2 class="hidden">Nav for why choose us</h2>
                     <ul>
-                        <li><a class="selected" href="#">Why Choose Couples Resort</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a class="selected" href="#why-choose-us-hero-con">Why Choose Couples Resort</a></li>
+                        <li><a class="selected" href="#about-con">About</a></li>
+                        <li><a class="selected" href="#faq-con">FAQ</a></li>
+                        <li><a class="selected" href="#contact-hero-con">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -146,7 +146,7 @@
                     <p>"Thank you for your interest in our Couples Resort.  Here you will find the time to spend quality time together, and this is why we exist, to be here, so that you can spend lots of time together.  We, the LeBlanc Family, started in 1958 to take care of guests, in 1987 we moved to couples only (no kids and no meetings/conferences) as we knew that many couples needed special time together.  In 2008, Canada Select which was rating 5000 accommodation properties in Canada, decided we should join them because we were easily in the top 1%, a 5 Star, and we are glad we made it for you to enjoy as you deserve it.  Now, many times of the year, we offer rates super discounted as we wish to be accessible to as many couples as possible, as all couples should benefit from quiet time together.  We have learned over the decades from our guests that those guests that have a love for gratitude for each other and for their surroundings are the happiest people, daily I ask how grateful am I, and I hope you are filled with many things that you are grateful for.  If you know other couples who need time away please pass on the word."</p>
                     </article>
                 
-                    <p>Your Hosts, <span class="cr-red">The LeBlanc Family &amp; Team</span><br>The Couples Resort, Ontario - Canada </p>
+                    <p>Your Hosts, <span class="cr-red"><a href="#">The LeBlanc Family &amp; Team</a></span><br>The Couples Resort, Ontario - Canada </p>
                 </div>
             </div>
             
@@ -156,9 +156,9 @@
                 <div class="col-span-full">
                     <h2><span>Couples Resort</span><br>FAQ</h2>
                 </div>
-                <section class="col-span-full faq-items line-separator"></section>
+                <div class="col-span-full faq-items line-separator"></div>
 
-                <section class="dropdown-nav col-span-full">
+                <div class="dropdown-nav col-span-full">
 
                         <input type="checkbox" id="dropdown-icon">
                         <label for="dropdown-icon" class="faq-menu-box">
@@ -174,9 +174,9 @@
                         </ul>
                     </div>
                 
-                </section>
+                </div>
                 
-             <section class="dropdown-nav col-span-full">
+             <div class="dropdown-nav col-span-full">
                     <input type="checkbox" id="dropdown-icon2">
                         <label for="dropdown-icon2" class="faq-menu-box">
                         <img src="images/arrow-icon.svg" alt="drop down arrow">
@@ -190,9 +190,9 @@
                                 <li><a href="#">A variety of sports equipment. No extra charge</a></li>
                             </ul>
                         </div>
-                </section>
+                </div>
 
-            <section class="dropdown-nav col-span-full">
+            <div class="dropdown-nav col-span-full">
                 <input type="checkbox" id="dropdown-icon3">
                     <label for="dropdown-icon3" class="faq-menu-box">
                     <img src="images/arrow-icon.svg" alt="drop down arrow">
@@ -206,9 +206,9 @@
                         </ul>
                     </div>
               
-                </section>
+                </div>
 
-            <section class="dropdown-nav col-span-full">
+            <div class="dropdown-nav col-span-full">
                 <input type="checkbox" id="dropdown-icon4">
                     <label for="dropdown-icon4" class="faq-menu-box">
                     <img src="images/arrow-icon.svg" alt="drop down arrow">
@@ -226,7 +226,7 @@
                             </ul>
                         </div>
                     
-                </section>
+                </div>
 
       
         </div>
@@ -256,13 +256,31 @@
             <div id="contact-hero-form" class="col-span-full">
 
 
-                <form action="#" method="post" enctype="text/plain">
+                <form action="home.html" method="post" enctype="text/plain">
                     <input name="fullName" type="text" required placeholder="First & Last Name">
                     <input name="contactInfo" type="text" required placeholder="Phone number or Email">
                     <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
-                    <input name="submit" type="submit" value="Send">
+
+                        <input name="submit" type="submit" value="Send">
+             
                 </form>
+ 
             </div>
+   
+            <div id="contact-email-notify" class="col-span-full"> 
+            <!-- <h3 class="hidden">Contact email notification checkbox</h3>  -->
+            <div class="email-notify col-span-full">
+                <input type="checkbox"><span>Notify me of follow-up comments via email.</span>
+            </div>
+            </div>
+            <div id="contact-email-notify2" class="col-span-full"> 
+            <div class="email-notify col-span-full">
+                <input type="checkbox"><span>Notify me of new posts via email.</span>
+            </div>
+            </div>
+           
+             
+         
         </section>
             
         <footer id="footer-hero" class="grid-con">        
