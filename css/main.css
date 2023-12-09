@@ -256,6 +256,12 @@ Couples Resort Responsive Build
     font-weight: bold;
  }
 
+ .hero-item-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
  .hero-dining-list ul {
    margin: 0;
    padding: 0;
