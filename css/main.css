@@ -396,50 +396,7 @@ Couples Resort Responsive Build
     text-align: left;
     color: #626262;
  }
-<<<<<<< Updated upstream
  
-=======
-
- /* ---------------------------------------- */
- .dropdown-nav2 {
-   margin-top: 20px;
-} 
- 
- /* .dropdown-nav2 label {
-   margin-top: 15px;
-}  */
-
-.dropdown-nav2 label img:hover {
-   opacity: 70%;
-} 
-
-.dropdown-nav2 label img {
-   width: 20px;
-   height: 20px;
-   /* margin-top: 15px; */
-   margin-right: 10px;
-   cursor: pointer;
-   transition: all .3s ease;
-   /* margin-bottom: 20px;  */
-} 
-
-
-.dropdown-nav2 input, .list-group {
-   display: none;
-}
-
-/*   ~ sibling selector   */
-
-
-.dropdown-nav2 input:checked ~ .list-group {
-   display: block;
-}
-
-.dropdown-nav2 input:checked ~ label img {
-   transform: rotate(90deg);
-}
-
->>>>>>> Stashed changes
   /* ---------------------------------------- */
 
   #faq-con {
@@ -610,10 +567,6 @@ Couples Resort Responsive Build
    /* width: 100px; */
  }
 
- .contact-email-notify-box {
-   margin: 0 0 25px 0;
- }
-
  #contact-email-notify {
    /* background-color: #9c1a1a; */
    position: relative;
@@ -625,7 +578,7 @@ Couples Resort Responsive Build
 }
 
 #contact-email-notify input[type="checkbox"]:checked + span::after {
-   content: "\2705";
+   content: "\1F44D";
    width: 25px;
    height: 25px;
    /* margin-left: auto; */
@@ -634,7 +587,7 @@ Couples Resort Responsive Build
    /* border: 4px solid #20b320; */
    font-size: 20px;
    position: absolute;
-   bottom: 20px;
+   bottom: 28px;
    right: 8px;
    animation: fadeIn 0.7s;
 }
@@ -650,7 +603,7 @@ Couples Resort Responsive Build
 }
 
 #contact-email-notify2 input[type="checkbox"]:checked + span::after {
-   content: "\2705";
+   content: "\1F44D";
    width: 25px;
    height: 25px;
    /* margin-left: auto; */
@@ -659,7 +612,7 @@ Couples Resort Responsive Build
    /* border: 4px solid #20b320; */
    font-size: 20px;
    position: absolute;
-   bottom: 10px;
+   bottom: 18px;
    right: 8px;
    animation: fadeIn 0.7s;
 }
