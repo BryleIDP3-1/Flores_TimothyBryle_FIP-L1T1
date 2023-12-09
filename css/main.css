@@ -163,6 +163,8 @@ Couples Resort Responsive Build
    background: url(../images/hero-dn-412@1x.jpg) no-repeat;
    height: 200px;
 }
+
+
  
  .book-now {
     background-color: #9a2018;
@@ -192,6 +194,10 @@ Couples Resort Responsive Build
  #hero-heading-box {
     align-self: end;
  }
+
+ #hero-heading-box2 {
+   align-self: end;
+}
  
  .hero-img-h2, .hero-img-h3 {
     background: rgb(255, 255, 255);
@@ -217,6 +223,12 @@ Couples Resort Responsive Build
 }
  
 /* ---------- Menu Dining ------------ */
+
+#gourmet-wine-img {
+   background: url(../images/sec02-dn-412@1x.jpg) no-repeat;
+   height: 195px;
+   margin-top: 20px;
+}
 
 .dropdown-box {
    background: #efefef;
@@ -262,12 +274,6 @@ Couples Resort Responsive Build
     align-self: end;
  }
  
- .why-choose-us-image {
-    float: left;
-    margin-right: 20px;
-    margin-top: 30px;
- }
-
  
  /* 4. ---Main Hero Image Contact--- */
  
@@ -322,33 +328,33 @@ Couples Resort Responsive Build
 #why-choose-us-nav ul li a.selected:hover {
     border-left: #9a2018 solid 5px;
     transition: all .1s ease;
+    color: #9a2018;
   }
 
 .menu-button-nav {
-   padding-top: 20px;
+   padding-top: 10px;
+   display: block;
+
 }
 
-.menu-button-nav ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-.menu-button-nav ul li {
-   margin-bottom: 15px;
-}
 
-.menu-button-nav ul li a {
+.menu-button-nav a {
   color: inherit;
   padding: 5px;
+  margin-bottom: 15px;
+  margin: 0;
+  /* font-weight: bold; */
 }
+
 
 /* #menu-button-nav ul li a.selected {
    border-left: #9a2018 solid 5px;
  } */
 
- .menu-button-nav ul li a.selected:hover {
+ .menu-button-nav a.selected:hover {
    border-left: #9a2018 solid 5px;
    transition: all .1s ease;
+   color: #9a2018;
  }
  
  
@@ -367,6 +373,13 @@ Couples Resort Responsive Build
     margin-top: 30px;
  }
 
+  
+ .gourmet-wine-image {
+   float: left;
+   margin-right: 20px;
+   /* margin-top: 30px; */
+}
+
  #menu-selected-image {
    /* float: left; */
    /* margin-right: 20px;
@@ -374,8 +387,31 @@ Couples Resort Responsive Build
    background: url(../images/secLast-dn-412@1x.jpg) no-repeat;
    width: 382px;
    height: 141px;
-   margin-top: 10px;
+   margin-top: 20px;
 }
+
+#menu-selected-image2 {
+   background: url(../images/secLast2-dn-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
+#menu-selected-image3 {
+   background: url(../images/secLast6-dn-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
+#menu-selected-image4 {
+   background: url(../images/secLast4-dn-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
+
 
 .menu-button-nav input, .menu-selected-con {
    display: none;
@@ -393,12 +429,12 @@ Couples Resort Responsive Build
 
 .selected-content-list h3{
       
-   font-size: 16px;
+   font-size: 14px;
    margin-top: 25px;
    margin-bottom: 10px;
    padding-bottom: 10px;
    /* line-height: 22px; */
-   font-weight: bold;
+   
    border-bottom: 1px solid #9a2018;
  }
 
@@ -486,6 +522,7 @@ Couples Resort Responsive Build
  }
 
 
+
  /* ---------------------------------------- */
 
   .dropdown-nav label {
@@ -534,7 +571,46 @@ Couples Resort Responsive Build
     text-align: left;
     color: #626262;
  }
+
+ /* ---------------------------------------- */
+ .dropdown-nav2 {
+   margin-top: 10px;
+} 
  
+ .dropdown-nav2 label {
+   margin-top: 15px;
+} 
+
+.dropdown-nav2 label img:hover {
+   opacity: 70%;
+} 
+
+.dropdown-nav2 label img {
+   width: 20px;
+   height: 20px;
+   /* margin-top: 15px; */
+   margin-right: 10px;
+   cursor: pointer;
+   transition: all .3s ease;
+   /* margin-bottom: 20px;  */
+} 
+
+
+.dropdown-nav2 input, .list-group {
+   display: none;
+}
+
+/*   ~ sibling selector   */
+
+
+.dropdown-nav2 input:checked ~ .list-group {
+   display: block;
+}
+
+.dropdown-nav2 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
   /* ---------------------------------------- */
 
   #faq-con {
