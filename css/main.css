@@ -792,7 +792,7 @@ Couples Resort Responsive Build
 }
 
 #contact-email-notify input[type="checkbox"]:checked + span::after {
-   content: "\1F44D";
+   content: "\2705";
    width: 25px;
    height: 25px;
    /* margin-left: auto; */
@@ -806,6 +806,10 @@ Couples Resort Responsive Build
    animation: fadeIn 0.7s;
 }
 
+.contact-email-notify-box {
+   margin-bottom: 20px;
+}
+
 #contact-email-notify2 {
    /* background-color: #9c1a1a; */
    position: relative;
@@ -817,7 +821,7 @@ Couples Resort Responsive Build
 }
 
 #contact-email-notify2 input[type="checkbox"]:checked + span::after {
-   content: "\1F44D";
+   content: "\2705";
    width: 25px;
    height: 25px;
    /* margin-left: auto; */
