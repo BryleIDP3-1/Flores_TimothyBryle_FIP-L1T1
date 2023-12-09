@@ -164,6 +164,10 @@ Couples Resort Responsive Build
    height: 200px;
 }
 
+#hero-rooms {
+   background: url(../images/hero-rm-412@1x.jpg) no-repeat;
+   height: 200px;
+}
 
  
  .book-now {
@@ -216,6 +220,12 @@ Couples Resort Responsive Build
     padding-top: 20px;
  }
 
+ .line-separator1 {
+   margin-top: 20px;
+   border-top: solid 2px #CF6666;
+   padding-top: 20px;
+}
+
  #hero-summary p {
    font-size: 14px;
    line-height: 22px;
@@ -266,6 +276,12 @@ Couples Resort Responsive Build
 
 #gourmet-feature-con {
    background: url(../images/sec01-dn-412@1x.jpg) no-repeat;
+   height: 195px;
+   margin-top: 20px;
+ }
+
+ #compare-room-con {
+   background: url(../images/sec01-rm-412@1x.jpg) no-repeat;
    height: 195px;
    margin-top: 20px;
  }
@@ -380,6 +396,41 @@ Couples Resort Responsive Build
    /* margin-top: 30px; */
 }
 
+#rooms-selected-image {
+   background: url(../images/sec04-rm-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
+#rooms-selected-image2 {
+   background: url(../images/sec05-rm-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
+#rooms-selected-image3 {
+   background: url(../images/sec06-rm-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
+#rooms-selected-image4 {
+   background: url(../images/sec07-rm-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
+#rooms-selected-image5 {
+   background: url(../images/sec08-rm-412@1x.jpg) no-repeat;
+   width: 382px;
+   height: 141px;
+   margin-top: 20px;
+}
+
  #menu-selected-image {
    /* float: left; */
    /* margin-right: 20px;
@@ -452,6 +503,24 @@ Couples Resort Responsive Build
    margin-bottom: 5px;
 }
 
+.selected-content-description {
+   font-size: 14px;
+   margin-top: 25px;
+   /* margin-bottom: 10px;
+   padding-bottom: 10px; */
+}
+
+.selected-content-description p {
+   font-size: 13px;
+   padding-top: 5px;
+   padding-bottom: 8px;
+   margin-bottom: 5px;
+   margin-top: 15px;
+}
+
+.selected-content-description span {
+   border-bottom: 1px solid #9a2018;
+}
 
  
  .why-choose-us-image-con h2 {
