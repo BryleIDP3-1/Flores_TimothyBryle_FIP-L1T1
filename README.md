@@ -21,9 +21,9 @@ Open index.html in the browser of your choice.
 
 ## History :clock8:
 
-**Created on December 3, 2023**
+**Finished on December 10, 2023**
 
-**Finished on November 30, 2023**
+**Created on December 3, 2023**
 
 Made for Final Integrated Project Level 1 - Term 1
 
