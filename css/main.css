@@ -484,7 +484,7 @@ Couples Resort Responsive Build
    display: block;
 }
 
-.selected-content-list h3{
+.selected-content-list h5{
       
    font-size: 14px;
    margin-top: 25px;
@@ -510,7 +510,7 @@ Couples Resort Responsive Build
 }
 
 
-.selected-content-description h3 {
+.selected-content-description h5 {
    font-size: 15px;
    margin-top: 25px;
    /* margin-bottom: 10px;
@@ -530,11 +530,17 @@ Couples Resort Responsive Build
 }
 
  
- .why-choose-us-image-con h2 {
+ .why-choose-us-image-con h4 {
     font-size: 14px;
     margin-bottom: 20px;
     margin-top: 30px;
  }
+
+ .why-choose-us-image-con h3 {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
  
  .why-choose-us-image-con p {
     font-size: 12px;
@@ -810,7 +816,7 @@ Couples Resort Responsive Build
     margin-bottom: 30px;
  }
  
- #contact-hero-address h3 {
+ #contact-hero-address h4 {
     margin-bottom: 25px;
  }
  
