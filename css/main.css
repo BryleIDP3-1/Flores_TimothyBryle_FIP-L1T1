@@ -509,8 +509,9 @@ Couples Resort Responsive Build
    margin-bottom: 5px;
 }
 
-.selected-content-description {
-   font-size: 14px;
+
+.selected-content-description h3 {
+   font-size: 15px;
    margin-top: 25px;
    /* margin-bottom: 10px;
    padding-bottom: 10px; */
